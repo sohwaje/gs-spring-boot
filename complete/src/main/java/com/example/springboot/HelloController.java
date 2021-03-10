@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Azure VMSS sample V1";
+		return "Greetings from Spring Boot!";
 	}
 
 }
